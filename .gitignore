@@ -1,0 +1,36 @@
+# Ignore environment variable files
+.env
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore local database files
+*.db
+*.sqlite
+
+# Ignore Flask specific config
+instance/
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore other IDEs/editors settings
+*.sublime-project
+*.sublime-workspace
